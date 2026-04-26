@@ -13,4 +13,6 @@ class TextFileWriter:
 
             if more_lines.lower() == "n":
                 break
-        
+
+        file.close()
+        print("Text saved successfully.")
