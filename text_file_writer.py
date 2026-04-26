@@ -8,4 +8,7 @@ class TextFileWriter:
         while True:
             user_line = input("Enter a line of text: ")
             file.write(user_line + "\n")
-            
+
+            more_lines = input("Are there more lines y/n ")
+
+        
