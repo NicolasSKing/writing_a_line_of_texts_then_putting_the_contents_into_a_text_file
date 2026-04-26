@@ -4,3 +4,8 @@ class TextFileWriter:
 
     def write_lines(self):
         file = open(self.file_name, "a")
+
+        while True:
+            user_line = input("Enter a line of text: ")
+            file.write(user_line + "\n")
+            
